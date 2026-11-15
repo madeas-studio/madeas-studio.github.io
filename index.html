@@ -1,109 +1,457 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Madeas studio • Креативное агентство</title>
+    <meta name="description" content="Креативное агентство, где идеи превращаются в сильные цифровые продукты. Мы помогаем брендам находить свой голос, выделяться среди конкурентов и выстр..." />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Madeas.GitHub.io · Created by @andrejsharapov</title>
-    <meta name="description" content="Madeas.GitHub.io · Created by @andrejsharapov" />
-    <meta name="author" content="Andrej Sharapov">
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/css/style.css">
-    <meta name="google-site-verification" content="zaHq_aXtLWenj9ImfGu_gFj0mmJlC1Prot8KOlYFGzY" />
-    <meta name="yandex-verification" content="e0b972edcef19cc9" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119776242-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!-- Open Graph (для Telegram, VK, соцсетей) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Madeas studio • Креативное агентство" />
+    <meta property="og:description" content="Креативное агентство, где идеи превращаются в сильные цифровые продукты. Мы помогаем брендам находить свой голос, выделяться среди конкурентов и выстр..." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://madeas.github.io/" />
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-119776242-1');
-    </script>
-</head>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
 
-<body>
-    <header>
-        <nav class="projects">
-            <ul>
-                <li><a href="/box-shadows/" title="CSS Box-shadow Library" target="_blank">CSS Box-shadows</a></li>
-                <li><a href="/device/" title="Device Creator" target="_blank">Device Creator</a></li>
-                <li><a href="https://github.com/madeas/JSFiddle-layouts" title="JSFiddle-layouts" target="_blank">JSFiddle layouts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <svg width="1024" height="1024" class="bg_svg">
-            <linearGradient id="gradient1">
-                <stop offset="0%" stop-color="rgba(4, 9, 29, .9)" />
-                <stop offset="100%" stop-color="rgba(40, 140, 255, .9)" />
-            </linearGradient>
-            <circle cx="250" cy="600" r="700" />
-            <circle cx="250" cy="600" r="600" style='animation-delay: 2s' />
-            <circle cx="250" cy="600" r="500" style='animation-delay: 4s' />
-            <circle cx="250" cy="600" r="400" style='animation-delay: 6s' />
-            <circle cx="250" cy="600" r="300" style='animation-delay: 8s' />
-            <circle cx="250" cy="600" r="200" style='animation-delay: 10s' />
-            <circle cx="250" cy="600" r="100" />
+    <!-- Шрифт Montserrat Alternates (только для заголовков) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>*,:before,:after{box-sizing:border-box}html,body{color:#e8eaf2;-webkit-font-smoothing:antialiased;background-color:#1a1828;width:100%;height:100dvh;margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:1rem;line-height:1.45;overflow:hidden}.loading{overflow:hidden}.hidden{opacity:0;visibility:hidden;pointer-events:none}.loader{z-index:9999;background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue) 12%, #1a1828) 0%, #1a1828 75%);flex-direction:column;justify-content:center;align-items:center;padding:24px;display:flex;position:fixed;inset:0}.loader-scene{width:100%;max-width:480px;height:180px;margin-bottom:24px;position:relative;overflow:hidden}.loader-ship{width:72px;height:72px;position:absolute;bottom:36px;left:50%;transform:translate(-50%)}.loader-ship img{object-fit:contain;width:100%;height:100%;display:block}.loader-text{letter-spacing:.06em;color:#a8b0c4;text-align:center;font-size:clamp(.95rem,1.5vw,1.15rem);font-weight:500}.navbar{opacity:0;transition:opacity .3s}.navbar.loaded{opacity:1}.navbar-brand-icon{object-fit:contain;width:28px;height:28px}@media (prefers-color-scheme:light){html,body{color:#39374d;background-color:#f4f6fb}.loader{background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue) 12%, #f4f6fb) 0%, #f4f6fb 75%)}.loader-text{color:#6b6880}}</style>
+    <script type="module" crossorigin src="/assets/index-ChfI4kZo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DaW00qeU.css">
+  </head>
+  <body>
+    <!-- 1. Loader -->
+    <div id="loader" class="loader">
+      <div class="loader-scene">
+        <div class="loader-waves"></div>
+        <div class="loader-waves loader-waves--back"></div>
+        <div class="loader-ship">
+          <img src="/icon.svg" alt="Madeas Studio" />
+        </div>
+      </div>
+      <div class="loader-text">
+        <span class="loader-text-inner">Плывём в агентство...</span>
+      </div>
+    </div>
+
+    <!-- 2. Navbar -->
+    <nav class="navbar">
+      <button type="button" class="navbar-brand" aria-label="Сброс камеры">
+        <svg class="navbar-brand-icon" aria-label="Madeas Studio" width="68" height="36">
+          <use href="#icon-madeas"></use>
+        </svg>
+      </button>
+
+      <!-- Кнопка переключения темы -->
+      <button
+        type="button"
+        class="navbar-theme-btn"
+        id="theme-toggle"
+        aria-label="Переключить тему"
+      >
+        <span class="navbar-theme-icon"></span>
+      </button>
+
+      <!-- Кнопка поиска -->
+      <button
+        type="button"
+        class="navbar-search-btn"
+        aria-label="Поиск по услугам"
+        id="navbar-search-trigger"
+      >
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M11 2C15.9706 2 20 6.02944 20 11C20 13.125 19.2619 15.0766 18.0303 16.6162L21.707 20.293C22.0972 20.6835 22.0974 21.3166 21.707 21.707C21.3166 22.0974 20.6835 22.0972 20.293 21.707L16.6162 18.0303C15.0766 19.2619 13.125 20 11 20C6.02944 20 2 15.9706 2 11C2 6.02944 6.02944 2 11 2ZM11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C12.89 18 14.6038 17.2497 15.8633 16.0322C15.8877 16.0012 15.9148 15.9719 15.9434 15.9434C15.9719 15.9148 16.0012 15.8877 16.0322 15.8633C17.2497 14.6038 18 12.89 18 11C18 7.13401 14.866 4 11 4Z"
+            fill="currentColor"
+          />
         </svg>
 
-        <div class="masthead">
-            <div class="title">
-                <h1>Madeas.GitHub.i</h1>
-                <svg aria-labelledby="preloader-madeas-github-icon" class="pre_img" viewBox="0 0 192 192" role="img" xmlns="http://www.w3.org/2000/svg">
-                    <title id="preloader-madeas-github-icon">Preloader svg madeas icon</title>
-                    <g transform="translate(0.000000,192.000000) scale(0.100000,-0.100000)" fill="white" stroke="none">
-                        <path d="M890 1900 c0 -6 18 -49 40 -96 45 -97 43 -110 -22 -139 -59 -26 -50 -38 38 -50 75 -11 164 -35 203 -55 57 -30 110 -126 127 -231 13 -83 8 -237 -12 -332 -9 -43 -29 -18 -59 74 -20 59 -31 79 -43 77 -19 -4 -60 -82 -67 -131 -5 -30 -2 -38 25 -60 17 -15 50 -32 73 -39 23 -6 43 -12 44 -13 2 -1 -6 -24 -17 -53 -11 -28 -22 -66 -26 -84 -8 -44 -9 -49 -23 -81 -6 -16 -8 -34 -4 -40 4 -7 8 -43 10 -81 2 -73 10 -142 17 -155 17 -27 163 5 228 51 16 11 40 22 55 24 33 6 56 26 58 51 0 10 15 39 32 63 25 37 72 128 78 150 17 65 14 62 71 57 39 -3 59 0 79 13 26 17 51 55 50 75 -3 30 -20 83 -33 104 l-16 23 -20 -25 c-12 -14 -32 -43 -45 -66 -32 -54 -56 -63 -45 -18 12 47 8 182 -7 236 -14 52 -64 158 -85 178 -8 8 -14 18 -14 22 0 12 -110 117 -167 159 -29 22 -101 66 -160 98 -85 46 -126 77 -194 144 -47 47 -98 102 -113 123 -27 35 -56 49 -56 27z" />
-                        <path d="M620 1530 c-45 -9 -104 -34 -140 -60 -15 -11 -39 -20 -53 -20 -29 0 -44 -16 -51 -54 -5 -26 -27 -61 -51 -78 -5 -4 -7 -8 -2 -8 4 0 -4 -18 -18 -40 -14 -22 -23 -40 -20 -40 3 0 -1 -10 -10 -23 -8 -12 -16 -32 -18 -42 -4 -28 -17 -46 -27 -40 -5 3 -31 6 -57 7 -41 0 -50 -3 -76 -32 -25 -28 -29 -39 -25 -75 6 -47 27 -97 44 -102 7 -2 26 20 43 50 17 29 40 62 51 72 21 19 21 19 15 -16 -14 -72 -7 -193 15 -264 12 -38 27 -77 34 -85 6 -8 18 -28 26 -45 42 -84 233 -241 389 -320 29 -14 60 -32 69 -38 25 -21 165 -160 212 -212 39 -43 45 -47 48 -29 2 11 -15 58 -37 104 l-41 84 22 23 c12 13 27 23 34 23 6 0 22 8 35 18 l22 19 -29 7 c-16 4 -45 9 -64 12 -215 23 -279 80 -327 289 -5 22 -4 229 1 260 13 81 19 95 32 84 11 -9 40 -82 48 -122 6 -28 19 -47 32 -47 19 0 61 77 69 126 6 38 4 43 -30 71 -20 17 -52 33 -74 37 -34 5 -38 9 -34 28 3 13 9 28 13 33 8 10 26 71 34 115 2 14 9 37 16 52 8 16 9 34 5 45 -5 10 -9 50 -11 88 -2 78 -9 128 -19 144 -7 12 -42 13 -95 1z" />
-                    </g>
-                </svg>
-            </div>
-            <div class="quote">
-                «The designer understands that he has achieved perfection not when he has nothing to add, but when he has nothing to remove»
-                <span>Antoine de Saint-Exupéry</span>
-            </div>            
-        </div>
-    </main>
-    
-    <footer>
-        <div class="copy">
-            <p>by <a href="https://twitter.com/andrejsharapov" title="twitter/andrejsharapov">@andrejsharapov</a></p>
-        </div>
-        <script>
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function () {
-                    try {
-                        w.yaCounter48938060 = new Ya.Metrika({
-                            id: 48938060,
-                            clickmap: true,
-                            trackLinks: true,
-                            accurateTrackBounce: true,
-                            webvisor: true
-                        });
-                    } catch (e) {}
-                });
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () {
-                        n.parentNode.insertBefore(s, n);
-                    };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else {
-                    f();
-                }
-            })(document, window, "yandex_metrika_callbacks");
-        </script>
-        <noscript>
-            <div><img src="https://mc.yandex.ru/watch/48938060" style="position:absolute; left:-9999px;" alt="" /></div>
-        </noscript>
-    </footer>
-</body>
+        <span class="navbar-search-text"></span>
+        <kbd class="navbar-search-kbd">Ctrl K</kbd>
+      </button>
 
+      <ul class="navbar-menu" id="navbar-menu"></ul>
+    </nav>
+
+    <!-- 3. About Popup -->
+    <div id="about-popup" class="about-popup hidden" aria-hidden="true">
+      <div class="popup-card">
+        <button class="popup-close" aria-label="Закрыть">×</button>
+        <div class="popup-body">
+          <h2 id="about-title"></h2>
+          <p id="about-text"></p>
+          <ul id="about-menu" class="about-menu"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Content Popup -->
+    <div id="popup" class="popup content-popup hidden" aria-hidden="true">
+      <div class="popup-backdrop"></div>
+      <button class="popup-nav popup-nav-prev" aria-label="Предыдущий">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
+
+      <div class="popup-card" role="dialog" aria-modal="true">
+        <button class="popup-close" aria-label="Закрыть">×</button>
+        <div class="popup-body">
+          <div id="popup-price" class="popup-price hidden"></div>
+          <p id="popup-note" class="popup-note hidden"></p>
+          <h2 id="popup-title"></h2>
+          <p id="popup-text"></p>
+
+          <div id="popup-scope" class="popup-scope hidden">
+            <h3 id="popup-scope-title"></h3>
+            <ul id="popup-scope-list" class="popup-scope-list"></ul>
+          </div>
+
+          <div id="popup-cases" class="popup-cases hidden">
+            <h3 id="popup-cases-title"></h3>
+            <ul id="popup-cases-list" class="links-list"></ul>
+          </div>
+
+          <a id="popup-cta" class="popup-cta-btn hidden" target="_blank" rel="noopener noreferrer">
+            <span id="popup-cta-text"></span>
+            <svg
+              class="popup-cta-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <div class="popup-counter" id="popup-counter"></div>
+      </div>
+
+      <button class="popup-nav popup-nav-next" aria-label="Следующий">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- 5. Company Popups -->
+    <div id="left-popups-grid" class="company-popups-grid">
+      <!-- Левая колонка: Ссылки и Контакты -->
+      <div class="company-popups-column">
+        <div id="links-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+          <button class="popup-close" aria-label="Закрыть">×</button>
+          <div class="popup-body">
+            <h2 id="links-title"></h2>
+            <p id="links-text" class="links-text"></p>
+            <ul id="links-list" class="links-list"></ul>
+          </div>
+        </div>
+
+        <div id="contacts-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+          <button class="popup-close" aria-label="Закрыть">×</button>
+          <div class="popup-body">
+            <h2 id="contacts-title"></h2>
+            <ul id="contacts-list" class="contacts-list"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Правая колонка: Стек технологий -->
+      <div class="company-popups-column">
+        <div id="skills-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+          <button class="popup-close" aria-label="Закрыть">×</button>
+          <div class="popup-body">
+            <h2 id="skills-title">Стек технологий</h2>
+            <div id="skills-list" class="skills-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Tooltip -->
+    <div id="cube-tooltip" class="cube-tooltip hidden" aria-hidden="true"></div>
+
+    <!-- 7. Search -->
+    <div id="search-modal" class="search-modal hidden" aria-hidden="true">
+      <div class="search-backdrop"></div>
+      <div class="popup-modal search-window" role="dialog" aria-modal="true">
+        <div class="search-input-wrapper">
+          <svg
+            class="search-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="search-input" placeholder="Поиск услуги..." autocomplete="off" />
+          <button id="search-close" class="search-close" aria-label="Закрыть">×</button>
+        </div>
+        <ul id="search-results" class="search-results"></ul>
+      </div>
+    </div>
+
+    <!-- 8. Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-info">
+          <span class="footer-copy"> © <span id="footer-year"></span> Madeas Studio </span>
+          <span class="footer-location">Россия, Москва</span>
+        </div>
+        <div class="footer-legal">
+          <span class="footer-requisites">
+            <!-- company info -->
+          </span>
+          <nav class="footer-links">
+            <a href="?doc=privacy" id="link-privacy"> Политика конфиденциальности </a>
+            <a href="?doc=consent" id="link-consent">Обработка данных</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 9. Docs Modal -->
+    <div id="doc-modal" class="search-modal hidden" aria-hidden="true">
+      <div class="search-backdrop" id="doc-backdrop"></div>
+      <div class="popup-modal doc-window" role="dialog" aria-modal="true">
+        <div class="search-input-wrapper">
+          <h2 id="doc-title"></h2>
+          <button id="doc-close" class="search-close" aria-label="Закрыть">×</button>
+        </div>
+        <div id="doc-content" class="doc-content"></div>
+      </div>
+    </div>
+
+    <!-- 10. 404 Modal -->
+    <div id="not-found-modal" class="search-modal hidden" aria-hidden="true">
+      <div class="search-backdrop"></div>
+      <div class="popup-modal not-found-window" role="dialog" aria-modal="true">
+        <div class="not-found-content">
+          <h2 class="not-found-code">404</h2>
+          <p class="not-found-text">Такой услуги или документа не существует.</p>
+          <button id="not-found-home" class="popup-cta-btn">
+            На главную
+            <svg
+              class="popup-cta-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 11. UI Управления кораблем -->
+    <div id="boat-hud" class="boat-hud hidden" aria-hidden="true">
+      <!-- Мини-карта -->
+      <div class="boat-minimap">
+        <canvas id="minimap-canvas" width="200" height="200"></canvas>
+      </div>
+
+      <!-- Штурвал -->
+      <div class="boat-wheel-container">
+        <div id="boat-wheel" class="boat-wheel">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <path
+              d="M50 10C52.1626 10 54.004 11.3731 54.7012 13.2949C71.3762 15.4093 84.5892 28.623 86.7041 45.2979C88.6265 45.9947 90 47.837 90 50C90 52.1629 88.6264 54.0042 86.7041 54.7012C84.5896 71.3764 71.3764 84.5896 54.7012 86.7041C54.0042 88.6264 52.1629 90 50 90C47.837 90 45.9947 88.6265 45.2979 86.7041C28.623 84.5892 15.4093 71.3762 13.2949 54.7012C11.3731 54.004 10 52.1626 10 50C10 47.8373 11.373 45.9949 13.2949 45.2979C15.4097 28.6233 28.6233 15.4097 45.2979 13.2949C45.9949 11.373 47.8373 10 50 10ZM28.123 74.7041C32.9017 78.939 38.917 81.8077 45.5596 82.7012C46.0856 81.6871 46.9481 80.8756 48 80.416V59.7988C46.7232 59.5396 45.536 59.0361 44.4863 58.3408L28.123 74.7041ZM55.5127 58.3408C54.4632 59.0358 53.2765 59.5397 52 59.7988V80.416C53.0518 80.8755 53.9134 81.6873 54.4395 82.7012C61.0822 81.8079 67.0972 78.939 71.876 74.7041L55.5127 58.3408ZM19.583 52C19.1233 53.0519 18.312 53.9135 17.2979 54.4395C18.1911 61.082 21.0602 67.0972 25.2949 71.876L41.6582 55.5127C40.9633 54.4633 40.4593 53.2764 40.2002 52H19.583ZM59.7998 52C59.5407 53.2766 59.0359 54.4632 58.3408 55.5127L74.7041 71.876C78.939 67.0972 81.8079 61.0822 82.7012 54.4395C81.6874 53.9134 80.8766 53.0516 80.417 52H59.7998ZM58.3408 44.4863C59.0361 45.536 59.5406 46.7231 59.7998 48H80.417C80.8766 46.9483 81.6872 46.0856 82.7012 45.5596C81.8077 38.917 78.939 32.9017 74.7041 28.123L58.3408 44.4863ZM25.2949 28.123C21.0602 32.9017 18.1913 38.9171 17.2979 45.5596C18.3122 46.0855 19.1233 46.948 19.583 48H40.2002C40.4594 46.7233 40.9631 45.5359 41.6582 44.4863L25.2949 28.123ZM45.5596 17.2979C38.9171 18.1913 32.9017 21.0602 28.123 25.2949L44.4863 41.6582C45.5359 40.9631 46.7233 40.4594 48 40.2002V19.583C46.948 19.1233 46.0855 18.3122 45.5596 17.2979ZM54.4395 17.2979C53.9135 18.312 53.0519 19.1233 52 19.583V40.2002C53.2764 40.4593 54.4633 40.9633 55.5127 41.6582L71.876 25.2949C67.0972 21.0602 61.082 18.1911 54.4395 17.2979Z"
+              fill="var(--color-text)"
+            />
+          </svg>
+        </div>
+        <div class="boat-hud-hint">WASD для управления</div>
+      </div>
+    </div>
+
+    <!-- 12. Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner hidden" aria-hidden="true">
+      <div class="cookie-banner-content">
+        <p>
+          Мы используем файлы cookie для анализа трафика и улучшения работы сайта. Продолжая
+          пользоваться сайтом, вы соглашаетесь с
+          <a href="?doc=privacy" id="cookie-privacy-link"> политикой конфиденциальности </a>.
+        </p>
+        <button type="button" id="cookie-accept" class="cookie-banner-btn">Принять</button>
+      </div>
+    </div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Madeas Studio",
+        "url": "https://madeas.github.io",
+        "logo": "https://madeas.github.io/favicon.svg",
+        "description": "Креативное агентство, где идеи превращаются в сильные цифровые продукты.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+7-964-788-27-38",
+          "contactType": "customer service",
+          "email": "andrejsharapov@gmail.com"
+        },
+        "sameAs": [
+          "https://behance.net/andrejsharapov",
+          "https://github.com/andrejsharapov",
+          "https://t.me/andrejsharapov"
+        ]
+      }
+    </script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="icon-madeas" viewBox="0 0 1024 512">
+        <path
+          d="M255.973 97.48C270.853 97.48 282.433 101.92 290.713 110.8C299.113 119.56 303.313 132.28 303.313 148.96V226H267.673V150.04C267.673 142.48 265.693 136.78 261.733 132.94C257.773 128.98 252.493 127 245.893 127C238.813 127 233.173 129.1 228.973 133.3C224.893 137.38 222.853 143.56 222.853 151.84V226H187.213V150.04C187.213 142.48 185.353 136.78 181.633 132.94C178.033 128.98 173.053 127 166.693 127C159.853 127 154.393 129.1 150.313 133.3C146.233 137.38 144.193 143.56 144.193 151.84V226H108.553V100H143.113V114.04C146.953 108.64 151.873 104.56 157.873 101.8C163.993 98.92 171.073 97.48 179.113 97.48C187.393 97.48 194.593 98.98 200.713 101.98C206.953 104.98 211.993 109.36 215.833 115.12C220.153 109.36 225.793 104.98 232.753 101.98C239.713 98.98 247.453 97.48 255.973 97.48ZM386.437 97.48C398.317 97.48 408.757 99.88 417.757 104.68C426.877 109.36 433.897 116.26 438.817 125.38C443.857 134.38 446.377 145.24 446.377 157.96V226H410.737V198.1H361.597V226H326.497V157.96C326.497 145.24 328.957 134.38 333.877 125.38C338.917 116.26 345.937 109.36 354.937 104.68C364.057 99.88 374.557 97.48 386.437 97.48ZM410.737 170.56V154.9C410.737 145.66 408.517 138.7 404.077 134.02C399.637 129.34 393.697 127 386.257 127C378.697 127 372.697 129.34 368.257 134.02C363.817 138.7 361.597 145.66 361.597 154.9V170.56H410.737ZM470.487 100H530.067C543.867 100 556.107 102.58 566.787 107.74C577.467 112.9 585.747 120.22 591.627 129.7C597.507 139.18 600.447 150.28 600.447 163C600.447 175.72 597.507 186.82 591.627 196.3C585.747 205.78 577.467 213.1 566.787 218.26C556.107 223.42 543.867 226 530.067 226H470.487V100ZM528.627 197.56C539.427 197.56 548.067 194.5 554.547 188.38C561.147 182.26 564.447 173.8 564.447 163C564.447 152.2 561.147 143.74 554.547 137.62C548.067 131.5 539.427 128.44 528.627 128.44H506.127V197.56H528.627ZM727.558 216.46C721.078 220.18 713.218 223.12 703.978 225.28C694.738 227.44 685.138 228.52 675.178 228.52C661.738 228.52 650.278 226.9 640.798 223.66C631.438 220.42 624.358 215.92 619.558 210.16C614.878 204.4 612.538 197.74 612.538 190.18C612.538 183.58 614.338 177.76 617.938 172.72C621.538 167.68 626.518 163.78 632.878 161.02C627.958 158.5 624.178 155.02 621.538 150.58C619.018 146.02 617.758 141.04 617.758 135.64C617.758 128.68 619.918 122.32 624.238 116.56C628.678 110.8 635.398 106.18 644.398 102.7C653.398 99.22 664.498 97.48 677.698 97.48C685.978 97.48 694.138 98.26 702.178 99.82C710.218 101.38 717.298 103.48 723.418 106.12L713.698 132.76C702.538 127.84 691.018 125.38 679.138 125.38C670.618 125.38 664.258 126.52 660.058 128.8C655.858 130.96 653.758 134.02 653.758 137.98C653.758 145.18 658.978 148.78 669.418 148.78H705.058V175.96H667.078C660.958 175.96 656.338 176.98 653.218 179.02C650.098 180.94 648.538 183.82 648.538 187.66C648.538 191.74 650.818 194.92 655.378 197.2C659.938 199.48 667.018 200.62 676.618 200.62C683.458 200.62 690.478 199.72 697.678 197.92C704.998 196 711.358 193.42 716.758 190.18L727.558 216.46ZM796.007 97.48C807.887 97.48 818.327 99.88 827.327 104.68C836.447 109.36 843.467 116.26 848.387 125.38C853.427 134.38 855.947 145.24 855.947 157.96V226H820.307V198.1H771.167V226H736.067V157.96C736.067 145.24 738.527 134.38 743.447 125.38C748.487 116.26 755.507 109.36 764.507 104.68C773.627 99.88 784.127 97.48 796.007 97.48ZM820.307 170.56V154.9C820.307 145.66 818.087 138.7 813.647 134.02C809.207 129.34 803.267 127 795.827 127C788.267 127 782.267 129.34 777.827 134.02C773.387 138.7 771.167 145.66 771.167 154.9V170.56H820.307ZM924.337 228.52C914.137 228.52 904.237 227.26 894.637 224.74C885.037 222.22 877.237 218.86 871.237 214.66L882.937 188.38C888.577 192.1 895.117 195.1 902.557 197.38C909.997 199.66 917.317 200.8 924.517 200.8C938.197 200.8 945.037 197.38 945.037 190.54C945.037 186.94 943.057 184.3 939.097 182.62C935.257 180.82 929.017 178.96 920.377 177.04C910.897 175 902.977 172.84 896.617 170.56C890.257 168.16 884.797 164.38 880.237 159.22C875.677 154.06 873.397 147.1 873.397 138.34C873.397 130.66 875.497 123.76 879.697 117.64C883.897 111.4 890.137 106.48 898.417 102.88C906.817 99.28 917.077 97.48 929.197 97.48C937.477 97.48 945.637 98.44 953.677 100.36C961.717 102.16 968.797 104.86 974.917 108.46L963.937 134.92C951.937 128.44 940.297 125.2 929.017 125.2C921.937 125.2 916.777 126.28 913.537 128.44C910.297 130.48 908.677 133.18 908.677 136.54C908.677 139.9 910.597 142.42 914.437 144.1C918.277 145.78 924.457 147.52 932.977 149.32C942.577 151.36 950.497 153.58 956.737 155.98C963.097 158.26 968.557 161.98 973.117 167.14C977.797 172.18 980.137 179.08 980.137 187.84C980.137 195.4 978.037 202.24 973.837 208.36C969.637 214.48 963.337 219.4 954.937 223.12C946.537 226.72 936.337 228.52 924.337 228.52Z"
+          fill="var(--color-text)"
+        />
+        <path
+          d="M546.708 99.0894L468.197 78.0523L467.144 81.9826L545.655 103.02L546.708 99.0894Z"
+          fill="var(--color-sky)"
+        />
+        <path
+          d="M635.035 122.756L556.524 101.719L555.47 105.65L633.982 126.687L635.035 122.756Z"
+          fill="var(--color-sky)"
+        />
+        <path
+          d="M549.247 109.246C553.583 110.408 558.041 107.83 559.204 103.489C560.368 99.1478 557.795 94.6866 553.459 93.5247C549.123 92.3628 544.665 94.9403 543.502 99.2816C542.338 103.623 544.911 108.084 549.247 109.246Z"
+          fill="var(--color-blue)"
+        />
+        <path
+          d="M472.457 73.9276L458.719 70.2463L455.033 84.0014L468.772 87.6827L472.457 73.9276Z"
+          fill="var(--color-blue)"
+        />
+        <path
+          d="M649.11 121.262L635.372 117.58L631.686 131.335L645.425 135.017L649.11 121.262Z"
+          fill="var(--color-blue)"
+        />
+        <use xlink:href="#stroke0_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke0_26_1097" fill="black" fill-opacity="0.2" />
+        <path
+          d="M86.4002 305.599L86.2055 343.817L52.908 358.926L53.2975 320.708L86.4002 305.599Z"
+          fill="var(--color-sky)"
+        />
+        <path
+          d="M86.4002 305.599L53.2974 320.708L20.3893 305.066L53.4921 289.957L86.4002 305.599Z"
+          fill="var(--color-blue)"
+        />
+        <path
+          d="M93.3873 291.555L93.2541 317.708L70.4681 328.048L70.7346 301.895L93.3873 291.555Z"
+          fill="var(--color-sky)"
+        />
+        <path
+          d="M93.3874 291.555L70.7347 301.895L48.2152 291.19L70.868 280.851L93.3874 291.555Z"
+          fill="var(--color-sky)"
+        />
+        <use xlink:href="#stroke1_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke1_26_1097" fill="black" fill-opacity="0.2" />
+        <path
+          d="M87.3984 247.857L87.2008 286.649L53.4027 301.985L53.798 263.193L87.3984 247.857Z"
+          fill="var(--color-sky)"
+        />
+        <path
+          d="M87.3984 247.857L53.798 263.193L20.3952 247.316L53.9956 231.979L87.3984 247.857Z"
+          fill="var(--color-blue)"
+        />
+        <use xlink:href="#stroke2_26_1097" fill="var(--color-sky)" />
+        <use xlink:href="#stroke2_26_1097" fill="black" fill-opacity="0.2" />
+        <use xlink:href="#stroke3_26_1097" fill="var(--color-sky)" />
+        <use xlink:href="#stroke3_26_1097" fill="black" fill-opacity="0.1" />
+        <path
+          d="M323 250.452L187.364 319.904L51.7274 250.452L187.364 180.999L323 250.452Z"
+          fill="var(--color-sky)"
+        />
+        <use xlink:href="#stroke4_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke4_26_1097" fill="black" fill-opacity="0.2" />
+        <use xlink:href="#stroke5_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke5_26_1097" fill="black" fill-opacity="0.1" />
+        <path
+          d="M147.705 379.746L103.654 399.852L59.8631 379.036L103.914 358.93L147.705 379.746Z"
+          fill="var(--color-blue)"
+        />
+        <use xlink:href="#stroke6_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke6_26_1097" fill="black" fill-opacity="0.2" />
+        <use xlink:href="#stroke7_26_1097" fill="var(--color-blue)" />
+        <use xlink:href="#stroke7_26_1097" fill="black" fill-opacity="0.1" />
+        <path
+          d="M227.142 198.816L198.461 211.907L154.67 191.091L183.351 178L227.142 198.816Z"
+          fill="var(--color-blue)"
+        />
+        <path
+          d="M275.177 434.52C264.977 434.52 255.077 433.26 245.477 430.74C235.877 428.22 228.077 424.86 222.077 420.66L233.777 394.38C239.417 398.1 245.957 401.1 253.397 403.38C260.837 405.66 268.157 406.8 275.357 406.8C289.037 406.8 295.877 403.38 295.877 396.54C295.877 392.94 293.897 390.3 289.937 388.62C286.097 386.82 279.857 384.96 271.217 383.04C261.737 381 253.817 378.84 247.457 376.56C241.097 374.16 235.637 370.38 231.077 365.22C226.517 360.06 224.237 353.1 224.237 344.34C224.237 336.66 226.337 329.76 230.537 323.64C234.737 317.4 240.977 312.48 249.257 308.88C257.657 305.28 267.917 303.48 280.037 303.48C288.317 303.48 296.477 304.44 304.517 306.36C312.557 308.16 319.637 310.86 325.757 314.46L314.777 340.92C302.777 334.44 291.137 331.2 279.857 331.2C272.777 331.2 267.617 332.28 264.377 334.44C261.137 336.48 259.517 339.18 259.517 342.54C259.517 345.9 261.437 348.42 265.277 350.1C269.117 351.78 275.297 353.52 283.817 355.32C293.417 357.36 301.337 359.58 307.577 361.98C313.937 364.26 319.397 367.98 323.957 373.14C328.637 378.18 330.977 385.08 330.977 393.84C330.977 401.4 328.877 408.24 324.677 414.36C320.477 420.48 314.177 425.4 305.777 429.12C297.377 432.72 287.177 434.52 275.177 434.52ZM443.225 345.6C432.665 339.72 421.925 335.82 411.005 333.9V432H375.365V333.9C364.205 335.82 353.465 339.72 343.145 345.6L331.265 319.68C340.025 314.4 349.685 310.38 360.245 307.62C370.925 304.86 381.905 303.48 393.185 303.48C404.465 303.48 415.385 304.86 425.945 307.62C436.625 310.38 446.345 314.4 455.105 319.68L443.225 345.6ZM582.393 306V432H547.833V417.6C543.753 423.12 538.593 427.32 532.353 430.2C526.113 433.08 519.093 434.52 511.293 434.52C496.413 434.52 484.833 429.78 476.553 420.3C468.273 410.7 464.133 397.08 464.133 379.44V306H499.773V378.36C499.773 387.24 501.753 393.9 505.713 398.34C509.793 402.78 515.313 405 522.273 405C529.593 405 535.473 402.6 539.913 397.8C544.473 393 546.753 385.92 546.753 376.56V306H582.393ZM607.596 306H667.176C680.976 306 693.216 308.58 703.896 313.74C714.576 318.9 722.856 326.22 728.736 335.7C734.616 345.18 737.556 356.28 737.556 369C737.556 381.72 734.616 392.82 728.736 402.3C722.856 411.78 714.576 419.1 703.896 424.26C693.216 429.42 680.976 432 667.176 432H607.596V306ZM665.736 403.56C676.536 403.56 685.176 400.5 691.656 394.38C698.256 388.26 701.556 379.8 701.556 369C701.556 358.2 698.256 349.74 691.656 343.62C685.176 337.5 676.536 334.44 665.736 334.44H643.236V403.56H665.736ZM805.648 333.54V404.46H825.988V432H749.488V404.46H770.008V333.54H749.488V306H825.988V333.54H805.648ZM907.913 434.52C894.593 434.52 882.593 431.7 871.913 426.06C861.353 420.42 853.013 412.62 846.893 402.66C840.893 392.7 837.893 381.48 837.893 369C837.893 356.52 840.893 345.3 846.893 335.34C853.013 325.38 861.353 317.58 871.913 311.94C882.593 306.3 894.593 303.48 907.913 303.48C921.233 303.48 933.173 306.3 943.733 311.94C954.413 317.58 962.753 325.38 968.753 335.34C974.873 345.3 977.933 356.52 977.933 369C977.933 381.48 974.873 392.7 968.753 402.66C962.753 412.62 954.413 420.42 943.733 426.06C933.173 431.7 921.233 434.52 907.913 434.52ZM907.913 405C914.273 405 920.033 403.5 925.193 400.5C930.353 397.5 934.433 393.3 937.433 387.9C940.433 382.38 941.933 376.08 941.933 369C941.933 361.92 940.433 355.68 937.433 350.28C934.433 344.76 930.353 340.5 925.193 337.5C920.033 334.5 914.273 333 907.913 333C901.553 333 895.793 334.5 890.633 337.5C885.473 340.5 881.393 344.76 878.393 350.28C875.393 355.68 873.893 361.92 873.893 369C873.893 376.08 875.393 382.38 878.393 387.9C881.393 393.3 885.473 397.5 890.633 400.5C895.793 403.5 901.553 405 907.913 405Z"
+          fill="var(--color-text)"
+        />
+        <path
+          d="M750.5 289.538L744.5 283.745C748.14 283.366 760.026 290.175 760.026 290.175C761.82 287.964 754 283.538 754 283.538C760.163 283.781 765.973 287.589 765.973 287.589C766.441 286.973 763.5 281.538 763.5 281.538C769.226 282.591 776.274 289.323 776.274 289.323C777.11 288.42 772 285.038 773.191 283.745C774.381 282.451 783.31 291.055 783.561 290.31C783.066 288.077 782.333 285.883 781.367 283.743C784.902 282.924 802.323 291.239 802.323 291.239C802.323 291.239 805.305 292.201 804.502 291.822C803.086 290.312 804.019 288.686 803 287.038C808.277 286.591 814.832 295.429 814.832 295.429C814.832 295.429 813.67 291.058 814.835 291.048C816 291.038 820.193 293.409 820.193 293.409C820.096 293.283 823.322 290.758 825 290.538C826.678 290.319 824.398 292.539 825.47 293.369C826.543 294.199 825.887 297.173 825.887 297.173L829.5 297.038C829.5 297.038 828.382 297.042 827.5 299.538C826.632 301.993 826.2 303.414 826 306.038C825.897 307.389 826 309.538 826 309.538L826 313.538C824.728 312.755 823.263 313.133 822.363 312.629C821.182 311.852 819.683 311.283 817.981 310.973C816.779 310.878 815.523 310.946 814.303 311.175C813.08 311.404 811.92 311.786 810.902 312.296C808.763 313.243 806.923 314.426 804.801 315.345C804.368 315.574 803.878 315.754 803.356 315.873C802.834 315.991 802.289 316.049 801.758 316.038C800.754 315.883 799.892 315.531 799.292 315.033C794.375 311.873 787.915 309.757 780.667 308.928C779.952 308.816 779.178 308.812 778.416 308.915C777.423 309.126 776.487 309.451 775.657 309.874C773.876 310.644 771.818 311.09 769.763 311.153C767.703 311.214 765.74 310.891 764.131 310.222C762.696 309.585 761.361 308.619 759.466 308.71C758.385 308.842 757.341 309.141 756.44 309.579L749.589 313.038L749.5 300.038C749.5 300.038 749.205 294.468 746.733 291.341C744.352 288.33 742.5 287.589 742.5 287.589C745.82 288.361 747.549 288.382 750.5 289.538Z"
+          fill="var(--color-blue)"
+        />
+        <defs>
+          <path
+            id="stroke0_26_1097"
+            d="M53.2975 320.708L52.9081 358.926L20 343.284L20.3894 305.066L53.2975 320.708Z"
+          />
+          <path
+            id="stroke1_26_1097"
+            d="M53.7981 263.193L53.4028 301.985L20 286.108L20.3953 247.315L53.7981 263.193Z"
+          />
+          <path
+            id="stroke2_26_1097"
+            d="M187.364 319.905V492L51.7274 422.547V250.452L187.364 319.905Z"
+          />
+          <path id="stroke3_26_1097" d="M323 250.452V422.547L187.364 492V319.904L323 250.452Z" />
+          <path
+            id="stroke4_26_1097"
+            d="M103.654 399.852L103.136 450.709L59.3448 429.893L59.863 379.036L103.654 399.852Z"
+          />
+          <path
+            id="stroke5_26_1097"
+            d="M147.705 379.746L147.446 430.603L103.136 450.709L103.654 399.852L147.705 379.746Z"
+          />
+          <path
+            id="stroke6_26_1097"
+            d="M198.48 211.811L197.962 262.668L154.171 241.852L154.689 190.995L198.48 211.811Z"
+          />
+          <path
+            id="stroke7_26_1097"
+            d="M227.142 198.816L226.883 249.673L197.768 262.844L198.286 211.987L227.142 198.816Z"
+          />
+        </defs>
+      </symbol>
+    </svg>
+  </body>
 </html>
