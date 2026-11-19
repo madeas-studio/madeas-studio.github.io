@@ -15,10 +15,9 @@
 - [3D и GameDev](https://madeas.github.io/?service=blender): 3D-моделирование, Minecraft-ресурспаки и разработка игр.
 
 ## Контакты
-- Email: andrejsharapov@gmail.com
-- Telegram: https://t.me/andrejsharapov
-- GitHub: https://github.com/andrejsharapov
-- VK: https://vk.com/andrejsharapov
+- [Email](mailto:andrejsharapov@gmail.com): почта для связи и обсуждения проектов (andrejsharapov@gmail.com).
+- [Telegram](https://t.me/andrejsharapov): основной мессенджер для быстрой связи.
+- [VK](https://vk.com/andrejsharapov): страница студии и автора ВКонтакте.
 
-## Политика
-- [Политика конфиденциальности](https://madeas.github.io/?doc=privacy)
+## Optional
+- [Политика конфиденциальности](https://madeas.github.io/?doc=privacy): правила обработки персональных данных на сайте.
