@@ -15,8 +15,8 @@
 - [3D и GameDev](https://madeas.github.io/?service=blender): 3D-моделирование, Minecraft-ресурспаки и разработка игр.
 
 ## Контакты
-- [Email](mailto:andrejsharapov@gmail.com): почта для связи и обсуждения проектов (andrejsharapov@gmail.com).
 - [Telegram](https://t.me/andrejsharapov): основной мессенджер для быстрой связи.
+- [Email](mailto:an.sharapov90@gmail.com): почта для связи и обсуждения проектов (an.sharapov90@gmail.com).
 - [VK](https://vk.com/andrejsharapov): страница студии и автора ВКонтакте.
 
 ## Optional
