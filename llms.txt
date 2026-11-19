@@ -1,0 +1,24 @@
+# Madeas Studio
+
+> Креативное digital-агентство и студия разработки, в основе которой лежит качество и творческий взгляд. Разрабатываем сайты под ключ, создаем брендинг, дизайн и занимаемся продвижением. Работаем с частными лицами, малым и средним бизнесом.
+
+## Основное
+- [О компании](https://madeas.github.io/): описание студии, контакты и стек технологий.
+- [Услуги](https://madeas.github.io/?service=identity-brand): полный список услуг с ценами и кейсами.
+
+## Услуги
+- [Айдентика бренда](https://madeas.github.io/?service=identity-brand): создание визуального образа компании с нуля (логотип, цвета, шрифты, брендбук).
+- [Дизайн сайтов](https://madeas.github.io/?service=des-landing-page): проектирование и дизайн лендингов, промо-сайтов и веб-сервисов.
+- [Веб-разработка](https://madeas.github.io/?service=dev-landing-page): верстка и программирование сайтов, интеграция с CRM.
+- [Продвижение](https://madeas.github.io/?service=seo): SEO, баннеры, email-рассылки и квизы.
+- [Полиграфия](https://madeas.github.io/?service=business-card): дизайн визиток, буклетов, упаковки и мерча.
+- [3D и GameDev](https://madeas.github.io/?service=blender): 3D-моделирование, Minecraft-ресурспаки и разработка игр.
+
+## Контакты
+- Email: andrejsharapov@gmail.com
+- Telegram: https://t.me/andrejsharapov
+- GitHub: https://github.com/andrejsharapov
+- VK: https://vk.com/andrejsharapov
+
+## Политика
+- [Политика конфиденциальности](https://madeas.github.io/?doc=privacy)
