@@ -21,16 +21,16 @@
     <meta name="google-site-verification" content="zaHq_aXtLWenj9ImfGu_gFj0mmJlC1Prot8KOlYFGzY" />
 
     <!-- Шрифт Montserrat Alternates (только для заголовков) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
 
     <style>*,:before,:after{box-sizing:border-box}html,body{color:#e8eaf2;-webkit-font-smoothing:antialiased;background-color:#1a1828;width:100%;height:100dvh;margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:.875rem;line-height:1.45;overflow:hidden}.loading{overflow:hidden}.hidden{opacity:0;visibility:hidden;pointer-events:none}.loader{z-index:9999;background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue,#2e7bff) 12%, var(--color-bg,#1a1828)) 0%, var(--color-bg,#1a1828) 75%);width:100vw;height:100vh;display:block;position:fixed;top:0;left:0}.loader-scene{width:100%;max-width:480px;height:40vh;margin:0;position:absolute;bottom:50%;left:50%;overflow:hidden;transform:translate(-50%)}.loader-text{text-align:center;letter-spacing:.06em;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:clamp(14px,1.5vw,18px);font-weight:500;line-height:1.4;position:absolute;top:calc(50% + 24px);left:0;right:0}.loader-ship{width:30vw;height:auto;animation:2s ease-in-out infinite alternate logo-pulse;position:absolute;bottom:36px;left:50%;transform:translate(-50%)}.loader-ship svg{width:100%;height:auto;display:block}@keyframes logo-pulse{0%{opacity:.85;transform:translate(-50%)scale(1)}to{opacity:1;transform:translate(-50%)scale(.92)}}.navbar{opacity:0;transition:opacity .3s}.navbar.loaded{opacity:1}.navbar-brand-icon{object-fit:contain;width:28px;height:28px}@media (prefers-color-scheme:light){html,body{color:#39374d;background-color:#f4f6fb}.loader{background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue) 12%, #f4f6fb) 0%, #f4f6fb 75%)}.loader-text{color:#6b6880}}</style>
-    <script type="module" crossorigin src="/assets/index-BzMWSPV9.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bm_J0G1g.css">
+    <script type="module" crossorigin src="/assets/index-JBuWRn7X.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-_d9y2pSe.css">
   </head>
 
   <body>
@@ -87,188 +87,135 @@
       <ul class="navbar-menu" id="navbar-menu"></ul>
     </nav>
 
-    <!-- 3. About Popup -->
-    <div id="about-popup" class="about-popup hidden" aria-hidden="true">
-      <div class="popup-card">
-        <button class="popup-close" aria-label="Закрыть">×</button>
-        <div class="popup-body">
-          <h1 id="about-title"></h1>
-          <p id="about-text"></p>
-          <ul id="about-menu" class="about-menu"></ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4. Content Popup -->
-    <div id="popup" class="popup content-popup hidden" aria-hidden="true">
-      <div class="popup-backdrop"></div>
-      <button class="popup-nav popup-nav-prev" aria-label="Предыдущий">
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <polyline points="15 18 9 12 15 6" />
-        </svg>
-      </button>
-
-      <div class="popup-card" role="dialog" aria-modal="true">
-        <button class="popup-close" aria-label="Закрыть">×</button>
-        <div class="popup-body">
-          <div id="popup-price" class="popup-price hidden"></div>
-          <p id="popup-note" class="popup-note hidden"></p>
-          <h2 id="popup-title"></h2>
-          <p id="popup-text"></p>
-
-          <div id="popup-scope" class="popup-scope hidden">
-            <h3 id="popup-scope-title"></h3>
-            <ul id="popup-scope-list" class="popup-scope-list"></ul>
-          </div>
-
-          <div id="popup-cases" class="popup-cases hidden">
-            <h3 id="popup-cases-title"></h3>
-            <ul id="popup-cases-list" class="links-list"></ul>
-          </div>
-
-          <a id="popup-cta" class="popup-cta-btn hidden" target="_blank" rel="noopener noreferrer">
-            <span id="popup-cta-text"></span>
-            <svg
-              class="popup-cta-icon"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </a>
-        </div>
-        <div class="popup-counter" id="popup-counter"></div>
-      </div>
-
-      <button class="popup-nav popup-nav-next" aria-label="Следующий">
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <polyline points="9 18 15 12 9 6" />
-        </svg>
-      </button>
-    </div>
-
-    <!-- 5. Company Popups -->
-    <div id="left-popups-grid" class="company-popups-grid">
-      <!-- Левая колонка: Ссылки и Контакты -->
-      <div class="company-popups-column">
-        <div id="links-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+    <main>
+      <!-- 3. About Popup -->
+      <div id="about-popup" class="about-popup hidden" aria-hidden="true">
+        <div class="popup-card">
           <button class="popup-close" aria-label="Закрыть">×</button>
           <div class="popup-body">
-            <h2 id="links-title"></h2>
-            <p id="links-text" class="links-text"></p>
-            <ul id="links-list" class="links-list"></ul>
-          </div>
-        </div>
-
-        <div id="contacts-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
-          <button class="popup-close" aria-label="Закрыть">×</button>
-          <div class="popup-body">
-            <h2 id="contacts-title"></h2>
-            <ul id="contacts-list" class="contacts-list"></ul>
+            <h1 id="about-title"></h1>
+            <p id="about-text"></p>
+            <ul id="about-menu" class="about-menu"></ul>
           </div>
         </div>
       </div>
 
-      <!-- Правая колонка: Стек технологий -->
-      <div class="company-popups-column">
-        <div id="skills-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
-          <button class="popup-close" aria-label="Закрыть">×</button>
-          <div class="popup-body">
-            <h2 id="skills-title">Стек технологий</h2>
-            <div id="skills-list" class="skills-list"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 6. Tooltip -->
-    <div id="cube-tooltip" class="cube-tooltip hidden" aria-hidden="true"></div>
-
-    <!-- 7. Search -->
-    <div id="search-modal" class="search-modal hidden" aria-hidden="true">
-      <div class="search-backdrop"></div>
-      <div class="popup-modal search-window" role="dialog" aria-modal="true">
-        <div class="search-input-wrapper">
+      <!-- 4. Content Popup -->
+      <div id="popup" class="popup content-popup hidden" aria-hidden="true">
+        <div class="popup-backdrop"></div>
+        <button class="popup-nav popup-nav-prev" aria-label="Предыдущий">
           <svg
-            class="search-icon"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="2.5"
             stroke-linecap="round"
             stroke-linejoin="round"
           >
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            <polyline points="15 18 9 12 15 6" />
           </svg>
-          <input type="text" id="search-input" placeholder="Поиск услуги..." autocomplete="off" />
-          <button id="search-close" class="search-close" aria-label="Закрыть">×</button>
-        </div>
-        <ul id="search-results" class="search-results"></ul>
-      </div>
-    </div>
+        </button>
 
-    <!-- 8. Footer -->
-    <footer class="site-footer">
-      <div class="footer-content">
-        <div class="footer-info">
-          <span class="footer-copy"> © <span id="footer-year"></span> Madeas Studio </span>
-          <span class="footer-location">Россия, Москва</span>
+        <div class="popup-card" role="dialog" aria-modal="true">
+          <button class="popup-close" aria-label="Закрыть">×</button>
+          <div class="popup-body">
+            <div id="popup-price" class="popup-price hidden"></div>
+            <p id="popup-note" class="popup-note hidden"></p>
+            <h2 id="popup-title"></h2>
+            <p id="popup-text"></p>
+
+            <div id="popup-scope" class="popup-scope hidden">
+              <h3 id="popup-scope-title"></h3>
+              <ul id="popup-scope-list" class="popup-scope-list"></ul>
+            </div>
+
+            <div id="popup-cases" class="popup-cases hidden">
+              <h3 id="popup-cases-title"></h3>
+              <ul id="popup-cases-list" class="links-list"></ul>
+            </div>
+
+            <a
+              id="popup-cta"
+              class="popup-cta-btn hidden"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="popup-cta-text"></span>
+              <svg
+                class="popup-cta-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+          <div class="popup-counter" id="popup-counter"></div>
         </div>
-        <div class="footer-legal">
-          <span class="footer-requisites">
-            <!-- company info -->
-          </span>
-          <nav class="footer-links">
-            <a href="?doc=privacy" id="link-privacy"> Политика конфиденциальности </a>
-            <a href="?doc=consent" id="link-consent">Обработка данных</a>
-          </nav>
+
+        <button class="popup-nav popup-nav-next" aria-label="Следующий">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- 5. Company Popups -->
+      <div id="left-popups-grid" class="company-popups-grid">
+        <!-- Левая колонка: Ссылки и Контакты -->
+        <div class="company-popups-column">
+          <div id="links-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+            <button class="popup-close" aria-label="Закрыть">×</button>
+            <div class="popup-body">
+              <h2 id="links-title"></h2>
+              <p id="links-text" class="links-text"></p>
+              <ul id="links-list" class="links-list"></ul>
+            </div>
+          </div>
+
+          <div id="contacts-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+            <button class="popup-close" aria-label="Закрыть">×</button>
+            <div class="popup-body">
+              <h2 id="contacts-title"></h2>
+              <ul id="contacts-list" class="contacts-list"></ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Правая колонка: Стек технологий -->
+        <div class="company-popups-column">
+          <div id="skills-popup" class="popup-card side-popup-card hidden" aria-hidden="true">
+            <button class="popup-close" aria-label="Закрыть">×</button>
+            <div class="popup-body">
+              <h2 id="skills-title">Стек технологий</h2>
+              <div id="skills-list" class="skills-list"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
 
-    <!-- 9. Docs Modal -->
-    <div id="doc-modal" class="search-modal hidden" aria-hidden="true">
-      <div class="search-backdrop" id="doc-backdrop"></div>
-      <div class="popup-modal doc-window" role="dialog" aria-modal="true">
-        <div class="search-input-wrapper">
-          <h2 id="doc-title"></h2>
-          <button id="doc-close" class="search-close" aria-label="Закрыть">×</button>
-        </div>
-        <div id="doc-content" class="doc-content"></div>
-      </div>
-    </div>
+      <!-- 6. Tooltip -->
+      <div id="cube-tooltip" class="cube-tooltip hidden" aria-hidden="true"></div>
 
-    <!-- 10. 404 Modal -->
-    <div id="not-found-modal" class="search-modal hidden" aria-hidden="true">
-      <div class="search-backdrop"></div>
-      <div class="popup-modal not-found-window" role="dialog" aria-modal="true">
-        <div class="not-found-content">
-          <h2 class="not-found-code">404</h2>
-          <p class="not-found-text">Такой услуги или документа не существует.</p>
-          <button id="not-found-home" class="popup-cta-btn">
-            На главную
+      <!-- 7. Search -->
+      <div id="search-modal" class="search-modal hidden" aria-hidden="true">
+        <div class="search-backdrop"></div>
+        <div class="popup-modal search-window" role="dialog" aria-modal="true">
+          <div class="search-input-wrapper">
             <svg
-              class="popup-cta-icon"
+              class="search-icon"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -276,46 +223,106 @@
               stroke-linecap="round"
               stroke-linejoin="round"
             >
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-          </button>
+            <input type="text" id="search-input" placeholder="Поиск услуги..." autocomplete="off" />
+            <button id="search-close" class="search-close" aria-label="Закрыть">×</button>
+          </div>
+          <ul id="search-results" class="search-results"></ul>
         </div>
       </div>
-    </div>
 
-    <!-- 11. UI Управления кораблем -->
-    <div id="boat-hud" class="boat-hud hidden" aria-hidden="true">
-      <!-- Мини-карта -->
-      <div class="boat-minimap">
-        <canvas id="minimap-canvas" width="200" height="200"></canvas>
-      </div>
-
-      <!-- Штурвал -->
-      <div class="boat-wheel-container">
-        <div id="boat-wheel" class="boat-wheel">
-          <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
-            <path
-              d="M50 10C52.1626 10 54.004 11.3731 54.7012 13.2949C71.3762 15.4093 84.5892 28.623 86.7041 45.2979C88.6265 45.9947 90 47.837 90 50C90 52.1629 88.6264 54.0042 86.7041 54.7012C84.5896 71.3764 71.3764 84.5896 54.7012 86.7041C54.0042 88.6264 52.1629 90 50 90C47.837 90 45.9947 88.6265 45.2979 86.7041C28.623 84.5892 15.4093 71.3762 13.2949 54.7012C11.3731 54.004 10 52.1626 10 50C10 47.8373 11.373 45.9949 13.2949 45.2979C15.4097 28.6233 28.6233 15.4097 45.2979 13.2949C45.9949 11.373 47.8373 10 50 10ZM28.123 74.7041C32.9017 78.939 38.917 81.8077 45.5596 82.7012C46.0856 81.6871 46.9481 80.8756 48 80.416V59.7988C46.7232 59.5396 45.536 59.0361 44.4863 58.3408L28.123 74.7041ZM55.5127 58.3408C54.4632 59.0358 53.2765 59.5397 52 59.7988V80.416C53.0518 80.8755 53.9134 81.6873 54.4395 82.7012C61.0822 81.8079 67.0972 78.939 71.876 74.7041L55.5127 58.3408ZM19.583 52C19.1233 53.0519 18.312 53.9135 17.2979 54.4395C18.1911 61.082 21.0602 67.0972 25.2949 71.876L41.6582 55.5127C40.9633 54.4633 40.4593 53.2764 40.2002 52H19.583ZM59.7998 52C59.5407 53.2766 59.0359 54.4632 58.3408 55.5127L74.7041 71.876C78.939 67.0972 81.8079 61.0822 82.7012 54.4395C81.6874 53.9134 80.8766 53.0516 80.417 52H59.7998ZM58.3408 44.4863C59.0361 45.536 59.5406 46.7231 59.7998 48H80.417C80.8766 46.9483 81.6872 46.0856 82.7012 45.5596C81.8077 38.917 78.939 32.9017 74.7041 28.123L58.3408 44.4863ZM25.2949 28.123C21.0602 32.9017 18.1913 38.9171 17.2979 45.5596C18.3122 46.0855 19.1233 46.948 19.583 48H40.2002C40.4594 46.7233 40.9631 45.5359 41.6582 44.4863L25.2949 28.123ZM45.5596 17.2979C38.9171 18.1913 32.9017 21.0602 28.123 25.2949L44.4863 41.6582C45.5359 40.9631 46.7233 40.4594 48 40.2002V19.583C46.948 19.1233 46.0855 18.3122 45.5596 17.2979ZM54.4395 17.2979C53.9135 18.312 53.0519 19.1233 52 19.583V40.2002C53.2764 40.4593 54.4633 40.9633 55.5127 41.6582L71.876 25.2949C67.0972 21.0602 61.082 18.1911 54.4395 17.2979Z"
-              fill="var(--color-text)"
-            />
-          </svg>
+      <!-- 8. Footer -->
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-info">
+            <span class="footer-copy"> © <span id="footer-year"></span> Madeas Studio </span>
+            <span class="footer-location">Россия, Москва</span>
+          </div>
+          <div class="footer-legal">
+            <span class="footer-requisites">
+              <!-- company info -->
+            </span>
+            <nav class="footer-links">
+              <a href="?doc=privacy" id="link-privacy"> Политика конфиденциальности </a>
+              <a href="?doc=consent" id="link-consent">Обработка данных</a>
+            </nav>
+          </div>
         </div>
-        <div class="boat-hud-hint">WASD для управления</div>
-      </div>
-    </div>
+      </footer>
 
-    <!-- 12. Cookie Banner -->
-    <div id="cookie-banner" class="cookie-banner hidden" aria-hidden="true">
-      <div class="cookie-banner-content">
-        <p>
-          Мы используем файлы cookie для анализа трафика и улучшения работы сайта. Продолжая
-          пользоваться сайтом, вы соглашаетесь с
-          <a href="?doc=privacy" id="cookie-privacy-link"> политикой конфиденциальности </a>.
-        </p>
-        <button type="button" id="cookie-accept" class="cookie-banner-btn">Принять</button>
+      <!-- 9. Docs Modal -->
+      <div id="doc-modal" class="search-modal hidden" aria-hidden="true">
+        <div class="search-backdrop" id="doc-backdrop"></div>
+        <div class="popup-modal doc-window" role="dialog" aria-modal="true">
+          <div class="search-input-wrapper">
+            <h2 id="doc-title"></h2>
+            <button id="doc-close" class="search-close" aria-label="Закрыть">×</button>
+          </div>
+          <div id="doc-content" class="doc-content"></div>
+        </div>
       </div>
-    </div>
+
+      <!-- 10. 404 Modal -->
+      <div id="not-found-modal" class="search-modal hidden" aria-hidden="true">
+        <div class="search-backdrop"></div>
+        <div class="popup-modal not-found-window" role="dialog" aria-modal="true">
+          <div class="not-found-content">
+            <h2 class="not-found-code">404</h2>
+            <p class="not-found-text">Такой услуги или документа не существует.</p>
+            <button id="not-found-home" class="popup-cta-btn">
+              На главную
+              <svg
+                class="popup-cta-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. UI Управления кораблем -->
+      <div id="boat-hud" class="boat-hud hidden" aria-hidden="true">
+        <!-- Мини-карта -->
+        <div class="boat-minimap">
+          <canvas id="minimap-canvas" width="200" height="200"></canvas>
+        </div>
+
+        <!-- Штурвал -->
+        <div class="boat-wheel-container">
+          <div id="boat-wheel" class="boat-wheel">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+              <path
+                d="M50 10C52.1626 10 54.004 11.3731 54.7012 13.2949C71.3762 15.4093 84.5892 28.623 86.7041 45.2979C88.6265 45.9947 90 47.837 90 50C90 52.1629 88.6264 54.0042 86.7041 54.7012C84.5896 71.3764 71.3764 84.5896 54.7012 86.7041C54.0042 88.6264 52.1629 90 50 90C47.837 90 45.9947 88.6265 45.2979 86.7041C28.623 84.5892 15.4093 71.3762 13.2949 54.7012C11.3731 54.004 10 52.1626 10 50C10 47.8373 11.373 45.9949 13.2949 45.2979C15.4097 28.6233 28.6233 15.4097 45.2979 13.2949C45.9949 11.373 47.8373 10 50 10ZM28.123 74.7041C32.9017 78.939 38.917 81.8077 45.5596 82.7012C46.0856 81.6871 46.9481 80.8756 48 80.416V59.7988C46.7232 59.5396 45.536 59.0361 44.4863 58.3408L28.123 74.7041ZM55.5127 58.3408C54.4632 59.0358 53.2765 59.5397 52 59.7988V80.416C53.0518 80.8755 53.9134 81.6873 54.4395 82.7012C61.0822 81.8079 67.0972 78.939 71.876 74.7041L55.5127 58.3408ZM19.583 52C19.1233 53.0519 18.312 53.9135 17.2979 54.4395C18.1911 61.082 21.0602 67.0972 25.2949 71.876L41.6582 55.5127C40.9633 54.4633 40.4593 53.2764 40.2002 52H19.583ZM59.7998 52C59.5407 53.2766 59.0359 54.4632 58.3408 55.5127L74.7041 71.876C78.939 67.0972 81.8079 61.0822 82.7012 54.4395C81.6874 53.9134 80.8766 53.0516 80.417 52H59.7998ZM58.3408 44.4863C59.0361 45.536 59.5406 46.7231 59.7998 48H80.417C80.8766 46.9483 81.6872 46.0856 82.7012 45.5596C81.8077 38.917 78.939 32.9017 74.7041 28.123L58.3408 44.4863ZM25.2949 28.123C21.0602 32.9017 18.1913 38.9171 17.2979 45.5596C18.3122 46.0855 19.1233 46.948 19.583 48H40.2002C40.4594 46.7233 40.9631 45.5359 41.6582 44.4863L25.2949 28.123ZM45.5596 17.2979C38.9171 18.1913 32.9017 21.0602 28.123 25.2949L44.4863 41.6582C45.5359 40.9631 46.7233 40.4594 48 40.2002V19.583C46.948 19.1233 46.0855 18.3122 45.5596 17.2979ZM54.4395 17.2979C53.9135 18.312 53.0519 19.1233 52 19.583V40.2002C53.2764 40.4593 54.4633 40.9633 55.5127 41.6582L71.876 25.2949C67.0972 21.0602 61.082 18.1911 54.4395 17.2979Z"
+                fill="var(--color-text)"
+              />
+            </svg>
+          </div>
+          <div class="boat-hud-hint">WASD для управления</div>
+        </div>
+      </div>
+
+      <!-- 12. Cookie Banner -->
+      <div id="cookie-banner" class="cookie-banner hidden" aria-hidden="true">
+        <div class="cookie-banner-content">
+          <p>
+            Мы используем файлы cookie для анализа трафика и улучшения работы сайта. Продолжая
+            пользоваться сайтом, вы соглашаетесь с
+            <a href="?doc=privacy" id="cookie-privacy-link"> политикой конфиденциальности </a>.
+          </p>
+          <button type="button" id="cookie-accept" class="cookie-banner-btn">Принять</button>
+        </div>
+      </div>
+    </main>
 
     <script type="application/ld+json">
       {
