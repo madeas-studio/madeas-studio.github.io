@@ -1,199 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://madeas.github.io/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://madeas-studio.github.io/</loc>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=blender</loc>
+    <loc>https://madeas-studio.github.io/?service=blender</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=blockbench</loc>
+    <loc>https://madeas-studio.github.io/?service=blockbench</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=application</loc>
+    <loc>https://madeas-studio.github.io/?service=application</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=icon</loc>
+    <loc>https://madeas-studio.github.io/?service=icon</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=illustration</loc>
+    <loc>https://madeas-studio.github.io/?service=illustration</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=logotype</loc>
+    <loc>https://madeas-studio.github.io/?service=logotype</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=merch</loc>
+    <loc>https://madeas-studio.github.io/?service=merch</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=social-media</loc>
+    <loc>https://madeas-studio.github.io/?service=social-media</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=sticker</loc>
+    <loc>https://madeas-studio.github.io/?service=sticker</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=des-business-card-website</loc>
+    <loc>https://madeas-studio.github.io/?service=des-business-card-website</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=des-landing-page</loc>
+    <loc>https://madeas-studio.github.io/?service=des-landing-page</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=des-marketplace</loc>
+    <loc>https://madeas-studio.github.io/?service=des-marketplace</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=des-promo-website</loc>
+    <loc>https://madeas-studio.github.io/?service=des-promo-website</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=des-web-service</loc>
+    <loc>https://madeas-studio.github.io/?service=des-web-service</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=dev-business-card-website</loc>
+    <loc>https://madeas-studio.github.io/?service=dev-business-card-website</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=dev-landing-page</loc>
+    <loc>https://madeas-studio.github.io/?service=dev-landing-page</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=dev-marketplace</loc>
+    <loc>https://madeas-studio.github.io/?service=dev-marketplace</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=dev-promo-website</loc>
+    <loc>https://madeas-studio.github.io/?service=dev-promo-website</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=dev-web-service</loc>
+    <loc>https://madeas-studio.github.io/?service=dev-web-service</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=minecraft</loc>
+    <loc>https://madeas-studio.github.io/?service=minecraft</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=unity</loc>
+    <loc>https://madeas-studio.github.io/?service=unity</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=banner</loc>
+    <loc>https://madeas-studio.github.io/?service=banner</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=billboard</loc>
+    <loc>https://madeas-studio.github.io/?service=billboard</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=quiz-design</loc>
+    <loc>https://madeas-studio.github.io/?service=quiz-design</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=seo</loc>
+    <loc>https://madeas-studio.github.io/?service=seo</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=booklet</loc>
+    <loc>https://madeas-studio.github.io/?service=booklet</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=business-card</loc>
+    <loc>https://madeas-studio.github.io/?service=business-card</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=certificate</loc>
+    <loc>https://madeas-studio.github.io/?service=certificate</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=menu</loc>
+    <loc>https://madeas-studio.github.io/?service=menu</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=packaging</loc>
+    <loc>https://madeas-studio.github.io/?service=packaging</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=poster</loc>
+    <loc>https://madeas-studio.github.io/?service=poster</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madeas.github.io/?service=identity-brand</loc>
+    <loc>https://madeas-studio.github.io/?service=identity-brand</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

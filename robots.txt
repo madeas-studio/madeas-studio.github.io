@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /?seed=
 
-Sitemap: https://madeas.github.io/sitemap.xml
+Sitemap: https://madeas-studio.github.io/sitemap.xml
