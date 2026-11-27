@@ -29,8 +29,8 @@
     /> -->
 
     <style>*,:before,:after{box-sizing:border-box}html,body{color:#e8eaf2;-webkit-font-smoothing:antialiased;background-color:#1a1828;width:100%;height:100dvh;margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:.875rem;line-height:1.45;overflow:hidden}.loading{overflow:hidden}.hidden{opacity:0;visibility:hidden;pointer-events:none}.loader{z-index:9999;background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue,#2e7bff) 12%, var(--color-bg,#1a1828)) 0%, var(--color-bg,#1a1828) 75%);width:100vw;height:100vh;display:block;position:fixed;top:0;left:0}.loader-scene{width:100%;max-width:480px;height:40vh;margin:0;position:absolute;bottom:50%;left:50%;overflow:hidden;transform:translate(-50%)}.loader-text{text-align:center;letter-spacing:.06em;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:clamp(14px,1.5vw,18px);font-weight:500;line-height:1.4;position:absolute;top:calc(50% + 24px);left:0;right:0}.loader-ship{width:30vw;height:auto;animation:2s ease-in-out infinite alternate logo-pulse;position:absolute;bottom:36px;left:50%;transform:translate(-50%)}.loader-ship svg{width:100%;height:auto;display:block}@keyframes logo-pulse{0%{opacity:.85;transform:translate(-50%)scale(1)}to{opacity:1;transform:translate(-50%)scale(.92)}}.navbar{opacity:0;min-height:56px;transition:opacity .3s}.navbar.loaded{opacity:1}.navbar-brand-icon{object-fit:contain;width:28px;height:28px}@media (prefers-color-scheme:light){html,body{color:#39374d;background-color:#f4f6fb}.loader{background:radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--color-blue) 12%, #f4f6fb) 0%, #f4f6fb 75%)}.loader-text{color:#6b6880}}</style>
-    <script type="module" crossorigin src="/assets/index-Be_iCH_U.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DrAR8HtN.css">
+    <script type="module" crossorigin src="/assets/index-ChXbXrtS.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DNM3If0t.css">
   </head>
 
   <body>
@@ -134,26 +134,38 @@
               <ul id="popup-cases-list" class="links-list"></ul>
             </div>
 
-            <a
-              id="popup-cta"
-              class="popup-cta-btn hidden"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="popup-cta-text"></span>
-              <svg
-                class="popup-cta-icon"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
+            <!-- Форма заявки -->
+            <form id="popup-cta" class="popup-cta-form hidden">
+              <div class="popup-cta-field">
+                <span id="contact-icon" class="popup-cta-icon-prepend">❌</span>
+                <input
+                  type="text"
+                  name="contact"
+                  placeholder="Телефон, @nick или email"
+                  required
+                  autocomplete="tel"
+                />
+              </div>
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Как к вам обращаться?"
+                required
+                autocomplete="name"
+              />
+
+              <input
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+                class="form-hp"
+                aria-hidden="true"
+              />
+              <button type="submit" class="popup-cta-btn">Напишите мне</button>
+              <p class="popup-cta-status" aria-live="polite"></p>
+            </form>
           </div>
           <div class="popup-counter" id="popup-counter"></div>
         </div>
